@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My App Store</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#0f1117;
+color:white;
+}
+
+header{
+background:#121826;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 15px rgba(0,0,0,.4);
+}
+
+.logo{
+font-size:24px;
+font-weight:700;
+color:#00d26a;
+}
+
+.search{
+width:350px;
+padding:10px;
+border:none;
+border-radius:30px;
+background:#1c2433;
+color:white;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
+}
+
+.app-card{
+background:#161d2d;
+border-radius:20px;
+padding:30px;
+box-shadow:0 0 30px rgba(0,210,106,.15);
+}
+
+.app-top{
+display:flex;
+flex-wrap:wrap;
+gap:25px;
+align-items:center;
+}
+
+.app-icon{
+width:130px;
+height:130px;
+border-radius:25px;
+object-fit:cover;
+border:3px solid #00d26a;
+}
+
+.app-info h1{
+font-size:34px;
+margin-bottom:10px;
+}
+
+.app-info p{
+color:#bbb;
+}
+
+.rating{
+margin-top:10px;
+color:#ffd700;
+font-size:18px;
+}
+
+.download-btn{
+display:inline-block;
+margin-top:20px;
+background:#00d26a;
+color:black;
+padding:14px 35px;
+border-radius:50px;
+font-weight:bold;
+text-decoration:none;
+transition:.3s;
+}
+
+.download-btn:hover{
+transform:scale(1.05);
+}
+
+.stats{
+display:flex;
+gap:40px;
+margin-top:25px;
+}
+
+.stat{
+text-align:center;
+}
+
+.stat h3{
+color:#00d26a;
+}
+
+.description{
+margin-top:35px;
+line-height:1.8;
+color:#d0d0d0;
+}
+
+.section-title{
+margin-top:40px;
+margin-bottom:15px;
+font-size:22px;
+}
+
+.screenshots{
+display:flex;
+overflow:auto;
+gap:15px;
+scroll-behavior:smooth;
+}
+
+.screenshots img{
+width:260px;
+border-radius:15px;
+transition:.3s;
+}
+
+.screenshots img:hover{
+transform:scale(1.05);
+}
+
+footer{
+text-align:center;
+padding:25px;
+margin-top:40px;
+background:#121826;
+color:#888;
+}
+
+::-webkit-scrollbar{
+height:8px;
+}
+
+::-webkit-scrollbar-thumb{
+background:#00d26a;
+border-radius:10px;
+}
+
+@media(max-width:768px){
+
+.app-top{
+flex-direction:column;
+text-align:center;
+}
+
+.search{
+display:none;
+}
+
+.stats{
+justify-content:center;
+flex-wrap:wrap;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">Google Play Store</div>
+<input type="text" class="search" placeholder="Search Apps">
+</header>
+
+<div class="container">
+
+<div class="app-card">
+
+<div class="app-top">
+
+<img src="icon.webp" class="app-icon">
+
+<div class="app-info">
+
+<h1>Chat desi girls</h1>
+
+<p>Best Android App Experience</p>
+
+<div class="rating">
+★★★★★ 4.9 Rating
+</div>
+
+<a href="https://viral-leak-mss.github.io/chat/signed.apk" download class="download-btn">
+DOWNLOAD APK
+</a>
+
+</div>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<h3>500K+</h3>
+<p>Downloads</p>
+</div>
+
+<div class="stat">
+<h3>4.9</h3>
+<p>Rating</p>
+</div>
+
+<div class="stat">
+<h3>5.6 MB</h3>
+<p>Size</p>
+</div>
+
+<div class="stat">
+<h3>v1.0</h3>
+<p>Version</p>
+</div>
+
+</div>
+
+<div class="description">
+
+<h2 class="section-title">About This App</h2>
+
+<p>
+🔥 वायरल चैट करने के लिए अभी ऐप डाउनलोड करें! 🔥
+
+हर दिन पाएं नई और गर्ल से चैट अनलिमिटेड अपडेट्स। मनोरंजन, मज़ेदार क्लिप्स और लेटेस्ट वायरल कंटेंट का मज़ा एक ही जगह पर।
+
+📲 अभी डाउनलोड करें और वायरल दुनिया से जुड़े रहें!
+
+✅ Daily Unlimited Updates
+✅ Latest Viral Chat
+✅ Fast & Easy Access
+✅ Entertainment Non-Stop
+
+आज ही ऐप डाउनलोड करें और हर वायरल मोमेंट का हिस्सा बनें!
+
+</p>
+
+</div>
+
+<h2 class="section-title">Screenshots</h2>
+
+<div class="screenshots">
+
+<img src="1.webp">
+<img src="2.webp">
+<img src="3.webp">
+<img src="5.webp">
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Play Store - All Rights Reserved
+</footer>
+
+</body>
+</html>
